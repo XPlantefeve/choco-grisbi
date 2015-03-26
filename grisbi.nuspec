@@ -1,4 +1,4 @@
-Enter file contents here<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
@@ -16,10 +16,7 @@ Enter file contents here<?xml version="1.0" encoding="utf-8"?>
     <licenseUrl>http://grisbi.org/post/License</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
-    <!--<iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/grisbi.png</iconUrl>-->
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
+    <iconUrl>http://cdn.rawgit.com/XPlantefeve/choco-grisbi/master/icons/grisbi-logo.png</iconUrl>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
