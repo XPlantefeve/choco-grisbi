@@ -1,6 +1,6 @@
-﻿$packageName = 'Grisbi'
+$packageName = 'Grisbi'
 $installerType = 'exe'
-$url = 'http://downloads.sourceforge.net/project/grisbi/grisbi%20stable/0.8.x/Grisbi_0.8.9-3_win32_mingw.exe?r=&ts=1427285002&use_mirror=kent'
+$url = 'https://sourceforge.net/projects/grisbi/files/grisbi%20stable/1.2.x/1.2.2/Grisbi-64bit-1.2.2-setup.exe/download'
 $silentArgs = '/S'
 $validExitCodes = @(0)
 
