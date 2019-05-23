@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-  <metadata>
-    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
-    <id>grisbi</id>
-    <title>Grisbi</title>
-    <version>1.2.2</version>
-    <authors>Cédric Auger</authors>
-    <owners>xave</owners>
-    <summary>personal finance management program</summary>
-    <description>Grisbi is developed with a simple and consistent view of your accounting in mind. Transactions lists, trees, tabs, nearly everything is customizable in order to adapt to your use. Rookie or expert, your choice!</description>
-    <projectUrl>http://grisbi.org/</projectUrl>
-    <tags>grisbi admin</tags>
-    <copyright></copyright>
-    <licenseUrl>http://grisbi.org/post/License</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
-    <iconUrl>http://cdn.rawgit.com/XPlantefeve/choco-grisbi/master/icons/grisbi-logo.png</iconUrl>
-    <releaseNotes></releaseNotes>
-  </metadata>
-  <files>
-    <file src="tools\**" target="tools" />
-  </files>
+    <metadata>
+        <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+        <id>grisbi</id>
+        <title>Grisbi</title>
+        <version>1.2.2</version>
+        <authors>Cédric Auger</authors>
+        <owners>xave</owners>
+        <summary>personal finance management program</summary>
+        <description>Grisbi is developed with a simple and consistent view of your accounting in mind. Transactions lists, trees, tabs, nearly everything is customizable in order to adapt to your use. Rookie or expert, your choice!</description>
+        <projectUrl>http://grisbi.org/</projectUrl>
+        <tags>grisbi admin</tags>
+        <copyright></copyright>
+        <licenseUrl>http://grisbi.org/post/License</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
+        <iconUrl>http://cdn.rawgit.com/XPlantefeve/choco-grisbi/master/icons/grisbi-logo.png</iconUrl>
+        <releaseNotes>The new version (1.2.2) of Grisbi is available for download. It essentially fixes some bugs.</releaseNotes>
+        <packageSourceUrl>https://github.com/XPlantefeve/choco-grisbi</packageSourceUrl>
+        <docsUrl>https://sourceforge.net/p/grisbi/wiki/Home/</docsUrl>
+        <mailingListUrl>http://listes.grisbi.org/mailman/listinfo/user</mailingListUrl>
+        <bugTrackerUrl>http://www.grisbi.org/bugsreports/</bugTrackerUrl>
+        <projectSourceUrl>https://sourceforge.net/projects/grisbi/files/</projectSourceUrl>
+    </metadata>
+    <files>
+        <file src="tools\**" target="tools" />
+    </files>
 </package>
