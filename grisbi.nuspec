@@ -5,7 +5,7 @@
         <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
         <id>grisbi</id>
         <title>Grisbi</title>
-        <version>2.0.0</version>
+        <version>2.0.4</version>
         <authors>Cédric Auger</authors>
         <owners>xave</owners>
         <summary>personal finance management program</summary>
@@ -17,7 +17,7 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
         <iconUrl>http://cdn.rawgit.com/XPlantefeve/choco-grisbi/master/icons/grisbi-logo.png</iconUrl>
-        <releaseNotes>The new version 2.0.0 of Grisbi is available for download.</releaseNotes>
+        <releaseNotes>The new version 2.0.4 of Grisbi is available for download.</releaseNotes>
         <packageSourceUrl>https://github.com/XPlantefeve/choco-grisbi</packageSourceUrl>
         <docsUrl>https://sourceforge.net/p/grisbi/wiki/Home/</docsUrl>
         <mailingListUrl>http://listes.grisbi.org/mailman/listinfo/user</mailingListUrl>
