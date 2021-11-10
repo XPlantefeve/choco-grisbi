@@ -1,10 +1,10 @@
 $packageName = 'Grisbi'
 $toolsDir = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 
-$Url = 'https://sourceforge.net/projects/grisbi/files/grisbi%20stable/2.0.x/2.0.4/Grisbi-32bit-2.0.4-setup.exe/download'
-$Url64 = 'https://sourceforge.net/projects/grisbi/files/grisbi%20stable/2.0.x/2.0.4/Grisbi-64bit-2.0.4-setup.exe/download'
-$Checksum = 'C051B536547E5A84CD54BD8244823060BE730BE7148A1452D99F434BA019528C'
-$Checksum64 = 'E5F2BEE6AF1DE58AAF0DD73165C7EB8005846AA29E79713C0461909A16CE1281'
+$Url = 'https://sourceforge.net/projects/grisbi/files/grisbi%20stable/2.0.x/2.0.5/Grisbi-32bit-2.0.5-setup.exe/download'
+$Url64 = 'https://sourceforge.net/projects/grisbi/files/grisbi%20stable/2.0.x/2.0.5/Grisbi-64bit-2.0.5-setup.exe/download'
+$Checksum = 'AE36B6341831C2F544315A0AC4A867D1365F2083324C774C45688A9C91403929'
+$Checksum64 = '848B48ABA5ADD0DB49DC4E0805BC84F1A4208A0AD5617CAD1E6F73EE8E314B50'
 
 $packageArgs = @{
     packageName    = $packageName
